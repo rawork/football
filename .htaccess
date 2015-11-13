@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Football Project"
+# (Following line optional)
+AuthBasicProvider file
+AuthUserFile /var/www/passwords
+Require user football

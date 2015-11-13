@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/30791.jpg') center center no-repeat;
+    background-color: #444;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+h2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+a {
+    /*color: #00f;*/
+    color: #137fc4;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+
+.clearfix {display: block;}
+
+
+.container {
+    background-color: rgba(255,255,255,0.80);
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+
+}
+
+.header {
+
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.header .title {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.team-wrapper {
+    margin: 0 auto;
+    position: relative;
+    border: 0;
+    width: 1140px;
+    height: 250px;
+    left: -15px;
+}
+
+ul.team {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul.team li {
+    margin: 0;
+    padding: 10px 10px 0;
+    display: inline-block;
+    text-align: center;
+    /*width: 19.5%;*/
+    width: 230px;
+    font-size: 12px;
+}
+
+ul.team li img {
+    display: block;
+    max-width: 100%;
+    width: 100px;
+    margin: 0 auto 10px;
+}
+
+ul.team li .name {
+    line-height: 16px;
+}
+
+ul.team li .position {
+    line-height: 11px;
+}
+
+ul.team li .description {
+    display: none;
+}
+
+ul.docs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.docs li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.docs li:first-child {
+    padding-left: 0;
+}
+
+.text {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.graph {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.graph img {
+    display: block;
+    max-width: 100%;
+}
+
+.video {
+    text-align: center;
+}
+
+.video .item {
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: inline-block;
+    width: 24.7%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.video .item:first-child {
+    padding-left: 0;
+}
+
+.video .item:last-child {
+    padding-right: 0;
+}
+
+.video .item iframe {
+    margin-top: 10px;
+}
+
+.row:after, .row:before {
+    display: table;
+    content: " ";
+}
+
+.row:after {
+    clear: both;
+}
+
+.col {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-6 {
+    width: 430px;
+    padding: 50px 0 0 47px;
+}
+
+.col-4 {
+    width: 690px;
+    left: 15px;
+    margin-bottom: 10px;
+}
+
+.col-1 {
+    width: 150px;
+}
+
+.col-2 {
+    width: 490px;
+    padding-left: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    z-index: 100;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+    width: 680px;
+    margin: 40px auto;
+    min-height: 100px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.modal .photo img {
+    width: 100px;
+}
+
+.modal .phone {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.modal .email {
+    font-size: 14px;
+}
+
+.modal .name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.modal .position {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.modal .description {
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
