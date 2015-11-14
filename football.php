@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
     <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111403" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111405" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111406" media="screen">
 </head>
 <body>
     <div class="container">
@@ -319,7 +319,7 @@
             </div>
         </div>
         <div class="footer">
-            <div class="logo"><a target="_blank" href="/award/"></a><img src="logo_randstad.png"></div>
+            <div class="logo"><a target="_blank" href="/award/"></a><img src="img/logo_randstad.png"></div>
             <div class="about"><iframe src="https://www.youtube.com/embed/7zrjEcNUT8M" width="300" height="170" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
         </div>
     </div>

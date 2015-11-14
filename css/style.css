@@ -95,11 +95,11 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.logo {
+.header .logo {
     float: left;
 }
 
-.logo img {
+.header .logo img {
     max-width: 200px;
     margin-bottom: 20px;
 }
@@ -345,3 +345,15 @@ ul.video li iframe {
     text-align: center;
 }
 
+.footer div {
+    display: inline-block;
+}
+
+.footer .about {
+    width: 300px;
+}
+
+.footer .logo img {
+    width: 170px;
+    margin-right: 40px;
+}
