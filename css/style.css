@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('../img/30791.jpg') center center no-repeat;
+    background: url('../img/fotolia_79208658.jpg') center center no-repeat;
     background-color: #444;
     background-size: cover;
     background-attachment: fixed;
@@ -27,7 +27,6 @@ h2 {
     display: block;
     margin: 0;
     padding: 0;
-    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 24px;
 }
@@ -57,17 +56,35 @@ a:hover {
 
 .clearfix {display: block;}
 
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+
+.text-bold {
+    font-weight: bold;
+}
 
 .container {
-    background-color: rgba(255,255,255,0.80);
+    background-color: rgba(255,255,255,0.70);
     max-width: 1200px;
     margin: 40px auto;
     padding: 40px;
-
 }
 
 .header {
-
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -134,10 +151,9 @@ ul.team li .description {
 
 ul.docs {
     list-style: none;
-    margin: 0;
+    margin: 40px 0 20px;
     padding: 0;
     display: block;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -163,31 +179,27 @@ ul.docs {
 .graph img {
     display: block;
     max-width: 100%;
+    margin-bottom: 20px;
 }
 
-.video {
+ul.video {
+    float: right;
     text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
 }
 
-.video .item {
+ul.video li {
     padding: 20px;
     padding-bottom: 0;
     padding-top: 0;
     display: inline-block;
-    width: 24.7%;
-    font-weight: bold;
     font-size: 18px;
 }
 
-.video .item:first-child {
-    padding-left: 0;
-}
-
-.video .item:last-child {
-    padding-right: 0;
-}
-
-.video .item iframe {
+ul.video li iframe {
     margin-top: 10px;
 }
 
@@ -226,6 +238,11 @@ ul.docs {
 .col-2 {
     width: 490px;
     padding-left: 40px;
+}
+
+.col-5 {
+    width: 69%;
+    float: left;
 }
 
 .hidden {
