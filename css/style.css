@@ -36,7 +36,7 @@ a {
     /*color: #00f;*/
     color: #137fc4;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 a:hover {
@@ -135,6 +135,10 @@ ul.team li {
     font-size: 12px;
 }
 
+ul.team li.member3 {
+    padding: 10px 0 0;
+}
+
 ul.team li img {
     display: block;
     max-width: 100%;
@@ -144,6 +148,7 @@ ul.team li img {
 
 ul.team li .name {
     line-height: 16px;
+    font-weight: bold;
 }
 
 ul.team li .position {
@@ -151,7 +156,16 @@ ul.team li .position {
 }
 
 ul.team li .description {
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    left: 155px;
+    top: -160px;
     display: none;
+    width: 250px;
+    height: 150px;
+    z-index: 10;
+    text-align: left;
 }
 
 ul.docs {
@@ -163,12 +177,9 @@ ul.docs {
 }
 
 .docs li {
+    margin: 0;
     display: inline-block;
-    padding: 2px 10px;
-}
-
-.docs li:first-child {
-    padding-left: 0;
+    padding: 2px 16px;
 }
 
 .text {
@@ -188,20 +199,26 @@ ul.docs {
 }
 
 ul.video {
-    float: right;
     text-align: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 30%;
 }
 
 ul.video li {
-    padding: 20px;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0 20px;
     display: inline-block;
     font-size: 18px;
+    width: 32.5%;
+}
+
+ul.video li:first-child {
+    padding-left: 0;
+}
+
+ul.video li:last-child {
+    padding-right: 0;
 }
 
 ul.video li iframe {
@@ -247,7 +264,7 @@ ul.video li iframe {
 
 .col-5 {
     width: 69%;
-    float: left;
+    padding-bottom: 20px;
 }
 
 .hidden {
@@ -311,3 +328,9 @@ ul.video li iframe {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
+.footer {
+    padding: 40px 0 0;
+    text-align: center;
+}
+

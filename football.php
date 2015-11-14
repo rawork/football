@@ -5,8 +5,8 @@
     <title>Россия-2018</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
-    <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111204" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111402" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111401" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111403" media="screen">
 </head>
 <body>
     <div class="container">
@@ -15,8 +15,8 @@
             <div class="title">АНО Организационный комитет<br>«Россия-2018»</div>
         </div>
         <div class="content">
-            <div class="prolog clearfix">
-                <div class="col-5 text-left text-normal">
+            <div class="prolog">
+                <div class="col-5 text-left">
                     <h2>Уважаемые члены АНО «Оргкомитет «Россия-2018»!</h2>
                     <p>Кадровый холдинг АНКОР выражает вам свое уважение и благодарит вас за
                         приглашение к тендеру на оказание услуг по поиску и подбору постоянного
@@ -28,21 +28,21 @@
                         способствовать достижению ваших целей в области управления человеческими
                         ресурсами.</p>
                 </div>
-                <ul class="video">
-                    <li class="text-bold">
-                        Сергей Саликов
-                        <iframe width="100%" height="160" src="https://www.youtube.com/embed/OTcns0LakBg?rel=0" frameborder="0" allowfullscreen></iframe>
-                    </li>
-                    <li class="text-bold">
-                        Алексей Миронов
-                        <iframe width="100%" height="160" src="https://www.youtube.com/embed/uLYlmyVWQ4k?rel=0" frameborder="0" allowfullscreen></iframe>
-                    </li>
-                    <li class="text-bold">
-                        Анастасия Теплоухова
-                        <iframe width="100%" height="160" src="https://www.youtube.com/embed/8QFhZeQKGjE?rel=0" frameborder="0" allowfullscreen></iframe>
-                    </li>
-                </ul>
             </div>
+            <ul class="video">
+                <li class="text-bold">
+                    Сергей Саликов
+                    <iframe width="100%" height="160" src="https://www.youtube.com/embed/OTcns0LakBg?rel=0" frameborder="0" allowfullscreen></iframe>
+                </li>
+                <li class="text-bold">
+                    Алексей Миронов
+                    <iframe width="100%" height="160" src="https://www.youtube.com/embed/uLYlmyVWQ4k?rel=0" frameborder="0" allowfullscreen></iframe>
+                </li>
+                <li class="text-bold">
+                    Анастасия Теплоухова
+                    <iframe width="100%" height="160" src="https://www.youtube.com/embed/8QFhZeQKGjE?rel=0" frameborder="0" allowfullscreen></iframe>
+                </li>
+            </ul>
             <ul class="docs">
                 <li><a target="_blank" href="files/project_team_portfolio.pdf">Команда проекта</a></li>
                 <li>|</li>
@@ -62,29 +62,26 @@
 
             <div class="row">
                 <div class="col col-6">
-                    <h1>Команда АНКОРа</h1>
+                    <h1>Сборная АНКОРа</h1>
                 </div>
                 <div class="col col-4 jcarousel">
                     <ul class="team">
                         <li class="member">
                             <img src="img/people/Salikov.jpg">
-                            <div class="football-position">Главный менеджер</div>
-                            <div class="name">Сергей Саликов</div>
+                            <div class="name text-bold">Главный менеджер &ndash; Сергей Саликов</div>
                             <div class="position">Генеральный директор холдинга АНКОР<br>
-                                21год опыта работы в АНКОРе</div>
+                                21 год опыта работы в АНКОРе</div>
                         </li>
                         <li class="member">
                             <img src="img/people/Mironov.jpg">
-                            <div class="football-position">Главный тренер</div>
-                            <div class="name">Алексей Миронов</div>
+                            <div class="name text-bold">Главный тренер &ndash; Алексей Миронов</div>
                             <div class="position">Директор по стратегии холдинга АНКОР<br>
                                 Управляющий Директор ANCOR Professional<br>
                                 10 лет опыта работы в АНКОРе</div>
                         </li>
-                        <li class="member">
+                        <li class="member member3">
                             <img src="img/people/Teplouhova.jpg">
-                            <div class="football-position">Капитан команды</div>
-                            <div class="name">Анастасия Теплоухова</div>
+                            <div class="name text-bold">Капитан команды - Анастасия Теплоухова</div>
                             <div class="position">Исполнительный директор ANCOR Professional<br>
                                 9 лет опыта работы в АНКОРе</div>
                         </li>
@@ -301,6 +298,10 @@
                 <a href="#" class="jcarousel-control-next">&rsaquo;</a>
             </div>
         </div>
+        <div class="footer">
+            <div class="logo"><a target="_blank" href="/award/"></a><img src="logo_randstad.png"></div>
+            <div class="about"><iframe src="https://www.youtube.com/embed/7zrjEcNUT8M" width="300" height="170" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+        </div>
     </div>
     <div class="modal hidden" id="biography">
         <div class="modal-dialog">
@@ -323,6 +324,6 @@
     </div>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-    <script type="text/javascript" src="js/app.js?2015111301"></script>
+    <script type="text/javascript" src="js/app.js?2015111401"></script>
 </body>
 </html>

@@ -5,17 +5,33 @@
             $(this).parents('.modal').addClass('hidden');
         });
 
-        $(document).on('click', '.member a', function(e){
-            e.preventDefault();
-            var that = $(this);
-            $('.modal .photo img').attr('src', that.find('img').attr('src'));
-            $('.modal .phone').html(that.attr('data-phone'));
-            $('.modal .email a').html(that.attr('data-email')).attr('href', 'mailto:'+that.attr('data-email'));
-            $('.modal .name').html(that.siblings('.name').html());
-            $('.modal .position').html(that.siblings('.position').html());
-            $('.modal .description').html(that.siblings('.description').html());
-            $('#biography').removeClass('hidden');
+        //$(document).on('click', '.member aa', function(e){
+        //    e.preventDefault();
+        //    var that = $(this);
+        //    $('.modal .photo img').attr('src', that.find('img').attr('src'));
+        //    $('.modal .phone').html(that.attr('data-phone'));
+        //    $('.modal .email a').html(that.attr('data-email')).attr('href', 'mailto:'+that.attr('data-email'));
+        //    $('.modal .name').html(that.siblings('.name').html());
+        //    $('.modal .position').html(that.siblings('.position').html());
+        //    $('.modal .description').html(that.siblings('.description').html());
+        //    $('#biography').removeClass('hidden');
+        //
+        //});
 
+        $(document).on('mouseover', '.member a', function(){
+            var that = $(this);
+            var pos = that.offset();
+            if (pos.left > 1000) {
+                that.siblings('.relative').find('.description').css('left', -195).show();
+            } else {
+                that.siblings('.relative').find('.description').css('left', 155).show();
+            }
+
+        });
+
+        $(document).on('mouseout', '.member a', function(){
+            var that = $(this);
+            that.siblings('.relative').find('.description').hide();
         });
 
         $('.jcarousel').jcarousel({
