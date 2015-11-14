@@ -5,8 +5,8 @@
     <title>Россия-2018</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
-    <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111401" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111403" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111402" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111404" media="screen">
 </head>
 <body>
     <div class="container">
@@ -64,28 +64,32 @@
                 <div class="col col-6">
                     <h1>Сборная АНКОРа</h1>
                 </div>
-                <div class="col col-4 jcarousel">
-                    <ul class="team">
-                        <li class="member">
-                            <img src="img/people/Salikov.jpg">
-                            <div class="name text-bold">Главный менеджер &ndash; Сергей Саликов</div>
-                            <div class="position">Генеральный директор холдинга АНКОР<br>
-                                21 год опыта работы в АНКОРе</div>
-                        </li>
-                        <li class="member">
-                            <img src="img/people/Mironov.jpg">
-                            <div class="name text-bold">Главный тренер &ndash; Алексей Миронов</div>
-                            <div class="position">Директор по стратегии холдинга АНКОР<br>
-                                Управляющий Директор ANCOR Professional<br>
-                                10 лет опыта работы в АНКОРе</div>
-                        </li>
-                        <li class="member member3">
-                            <img src="img/people/Teplouhova.jpg">
-                            <div class="name text-bold">Капитан команды - Анастасия Теплоухова</div>
-                            <div class="position">Исполнительный директор ANCOR Professional<br>
-                                9 лет опыта работы в АНКОРе</div>
-                        </li>
-                    </ul>
+                <div class="col col-4">
+                    <div class="team-leader-wrapper">
+                        <div class="jcarousel">
+                            <ul class="team">
+                                <li class="member">
+                                    <img src="img/people/Salikov.jpg">
+                                    <div class="name text-bold">Главный менеджер &ndash; Сергей Саликов</div>
+                                    <div class="position">Генеральный директор холдинга АНКОР<br>
+                                        21 год опыта работы в АНКОРе</div>
+                                </li>
+                                <li class="member">
+                                    <img src="img/people/Mironov.jpg">
+                                    <div class="name text-bold">Главный тренер &ndash; Алексей Миронов</div>
+                                    <div class="position">Директор по стратегии холдинга АНКОР<br>
+                                        Управляющий Директор ANCOR Professional<br>
+                                        10 лет опыта работы в АНКОРе</div>
+                                </li>
+                                <li class="member member3">
+                                    <img src="img/people/Teplouhova.jpg">
+                                    <div class="name text-bold">Капитан команды - Анастасия Теплоухова</div>
+                                    <div class="position">Исполнительный директор ANCOR Professional<br>
+                                        9 лет опыта работы в АНКОРе</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <h1>Основной состав</h1>

@@ -116,6 +116,14 @@ a:hover {
     left: -15px;
 }
 
+.team-leader-wrapper {
+    margin: 0 auto;
+    position: relative;
+    border: 0;
+    width: 700px;
+    height: 240px;
+}
+
 ul.team {
     list-style: none;
     margin: 0;
