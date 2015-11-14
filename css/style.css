@@ -6,6 +6,7 @@ body {
     background: url('../img/fotolia_79208658.jpg') center center no-repeat;
     background-color: #444;
     background-size: cover;
+    background-position: 0 -410px;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -76,6 +77,10 @@ a:hover {
     font-weight: bold;
 }
 
+.relative {
+    position: relative;
+}
+
 .container {
     background-color: rgba(255,255,255,0.70);
     max-width: 1200px;
@@ -108,7 +113,7 @@ a:hover {
     position: relative;
     border: 0;
     width: 1140px;
-    height: 250px;
+    height: 200px;
     left: -15px;
 }
 
