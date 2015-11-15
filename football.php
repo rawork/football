@@ -6,12 +6,12 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
     <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111403" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111406" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111501" media="screen">
 </head>
 <body>
     <div class="container">
         <div class="header clearfix">
-            <div class="logo"><img src="img/logo.png"></div>
+            <div class="logo"><a href="/" target="_blank"><img src="img/logo.png"></a></div>
             <div class="title">АНО Организационный комитет<br>«Россия-2018»</div>
         </div>
         <div class="content">
@@ -44,7 +44,9 @@
                 </li>
             </ul>
             <ul class="docs">
-                <li><a target="_blank" href="files/project_team_portfolio.pdf">Команда проекта</a></li>
+                <li><a target="_blank" href="files/project_team.pdf">Команда проекта</a></li>
+                <li>|</li>
+                <li><a target="_blank" href="files/project_team_portfolio.pdf">Экспертиза</a></li>
                 <li>|</li>
                 <li><a target="_blank" href="files/resource_evaluation.pdf">Оценка ресурсов</a></li>
                 <li>|</li>
@@ -319,7 +321,7 @@
             </div>
         </div>
         <div class="footer">
-            <div class="logo"><a target="_blank" href="/award/"></a><img src="img/logo_randstad.png"></div>
+            <div class="logo"><a target="_blank" href="/award/"></a><img src="img/logo_randstad2.jpg"></div>
             <div class="about"><iframe src="https://www.youtube.com/embed/7zrjEcNUT8M" width="300" height="170" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
         </div>
     </div>
