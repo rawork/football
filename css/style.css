@@ -181,17 +181,25 @@ ul.team li .description {
 
 ul.docs {
     list-style: none;
-    margin: 40px 0 20px;
+    margin: 60px 0 60px;
     padding: 0;
     display: block;
     text-align: center;
 }
 
 .docs li {
+    background: url('../img/pdf.png') top left no-repeat;
+    background-size: 50px;
+    text-align: left;
     margin: 0;
+    padding: 0;
     display: inline-block;
-    padding: 2px 12px;
+    padding-left: 70px;
+    padding-top: 15px;
     font-size: 24px;
+    width: 49.5%;
+    text-transform: uppercase;
+    height: 100px;
 }
 
 .docs li a {
@@ -226,7 +234,7 @@ ul.video li {
     padding: 0 20px;
     display: inline-block;
     font-size: 18px;
-    width: 32.5%;
+    width: 33.0%;
 }
 
 ul.video li:first-child {
