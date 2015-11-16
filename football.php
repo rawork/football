@@ -56,7 +56,7 @@
 
             </div>
             <div class="graph">
-                <img src="img/infographic.png">
+                <img src="img/infographic2.png">
                 <div class="text-right"><a target="_blank" href="files/ancor_about.pdf">Подробнее</a></div>
             </div>
 
@@ -206,7 +206,7 @@
                         <li>
                             <ul class="team">
                                 <li class="member">
-                                    <a href=""><img src="img/people/Mayorova.jpg"></a>
+                                    <a href=""><img src="img/people/Gatenyuk.jpg"></a>
                                     <div class="relative">
                                         <div class="description">
                                             <div class="name">Ксения Гатенюк</div>
