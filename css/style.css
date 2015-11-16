@@ -147,7 +147,7 @@ ul.team li {
 }
 
 ul.team li.member3 {
-    padding: 10px 0 0;
+    width: 234px;
 }
 
 ul.team li img {
@@ -281,7 +281,7 @@ ul.video li iframe {
 
 .col-4 {
     width: 690px;
-    left: 15px;
+    left: 20px;
     margin-bottom: 10px;
 }
 

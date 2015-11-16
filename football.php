@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
     <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111403" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111601" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111603" media="screen">
 </head>
 <body>
     <div class="container">
@@ -68,20 +68,20 @@
                     <div class="team-leader-wrapper">
                         <div class="jcarousel">
                             <ul class="team">
-                                <li class="member">
+                                <li class="member member3">
                                     <img src="img/people/Salikov.jpg">
                                     <div class="name text-bold">Главный менеджер &ndash; Сергей Саликов</div>
                                     <div class="position">Генеральный директор<br>холдинга АНКОР<br>
                                         21 год опыта работы в АНКОРе</div>
                                 </li>
-                                <li class="member">
+                                <li class="member member3">
                                     <img src="img/people/Mironov.jpg">
                                     <div class="name text-bold">Главный тренер &ndash; Алексей Миронов</div>
                                     <div class="position">Директор по стратегии<br>холдинга АНКОР<br>
                                         Управляющий директор<br>ANCOR Professional<br>
                                         10 лет опыта работы в АНКОРе</div>
                                 </li>
-                                <li class="member">
+                                <li class="member member3">
                                     <img src="img/people/Teplouhova.jpg">
                                     <div class="name text-bold">Капитан команды &ndash;<br> Анастасия Теплоухова</div>
                                     <div class="position">Исполнительный директор<br> ANCOR Professional<br>
