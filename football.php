@@ -319,7 +319,7 @@
             </div>
         </div>
         <div class="footer">
-            <div class="logo"><a target="_blank" href="/award/"></a><img src="img/logo_randstad2.jpg"></div>
+            <div class="logo"><a target="_blank" href="/award/"><img src="img/logo_randstad2.jpg"></a></div>
             <div class="about"><iframe src="https://www.youtube.com/embed/7zrjEcNUT8M" width="300" height="170" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
         </div>
     </div>
