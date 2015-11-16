@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
     <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111403" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111603" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111604" media="screen">
 </head>
 <body>
     <div class="container">
@@ -44,9 +44,9 @@
                 </li>
             </ul>
             <ul class="docs">
-                <li><a target="_blank" href="files/project_team.pdf">Команда<br> проекта</a></li>
+                <li><a target="_blank" href="files/ancor_russia_2018_offer.pdf">Предложение<br> АНКОРа</a></li>
 
-<!--                <li><a target="_blank" href="files/resource_evaluation.pdf">Оценка ресурсов</a></li>-->
+                <li><a target="_blank" href="files/project_team.pdf">Команда<br> проекта</a></li>
 
                 <li><a target="_blank" href="files/technology_and_metodology.pdf">Технология<br> и методология</a></li>
 
