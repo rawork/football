@@ -195,11 +195,16 @@ ul.docs {
     padding: 0;
     display: inline-block;
     padding-left: 70px;
-    padding-top: 15px;
+    padding-top: 2px;
     font-size: 24px;
-    width: 49.5%;
+    width: 30.5%;
     text-transform: uppercase;
     height: 100px;
+    margin-right: 40px;
+}
+
+.docs li:last-child {
+    margin-right: 0;
 }
 
 .docs li a {

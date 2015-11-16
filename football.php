@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" href="img/football.png" />
     <link type="text/css" rel="stylesheet" href="css/jcarousel.css?2015111403" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/style.css?2015111502" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/style.css?2015111601" media="screen">
 </head>
 <body>
     <div class="container">
@@ -44,13 +44,13 @@
                 </li>
             </ul>
             <ul class="docs">
-                <li><a target="_blank" href="files/project_team.pdf">Команда проекта</a></li>
+                <li><a target="_blank" href="files/project_team.pdf">Команда<br> проекта</a></li>
 
-                <li><a target="_blank" href="files/resource_evaluation.pdf">Оценка ресурсов</a></li>
+<!--                <li><a target="_blank" href="files/resource_evaluation.pdf">Оценка ресурсов</a></li>-->
 
-                <li><a target="_blank" href="files/technology_and_metodology.pdf">Технология и методология</a></li>
+                <li><a target="_blank" href="files/technology_and_metodology.pdf">Технология<br> и методология</a></li>
 
-                <li><a target="_blank" href="files/project_managment.pdf">Управление проектом</a></li>
+                <li><a target="_blank" href="files/project_managment.pdf">Управление<br> проектом</a></li>
             </ul>
             <div class="text">
 
