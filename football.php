@@ -50,7 +50,7 @@
 
                 <li><a target="_blank" href="files/technology_and_metodology.pdf">Технология и методология</a></li>
 
-                <li><a target="_blank" href="files/">Управление проектом</a></li>
+                <li><a target="_blank" href="files/project_managment.pdf">Управление проектом</a></li>
             </ul>
             <div class="text">
 
