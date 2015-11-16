@@ -70,7 +70,7 @@
                             <ul class="team">
                                 <li class="member member3">
                                     <img src="img/people/Salikov.jpg">
-                                    <div class="name text-bold">Главный менеджер &ndash; Сергей Саликов</div>
+                                    <div class="name text-bold">Главный менеджер &ndash;<br> Сергей Саликов</div>
                                     <div class="position">Генеральный директор<br>холдинга АНКОР<br>
                                         21 год опыта работы в АНКОРе</div>
                                 </li>
